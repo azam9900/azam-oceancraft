@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>OceanCraft Boats – Premium Boat Brand</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header role="banner">
+  <div class="header-inner container">
+    <a href="#" class="logo" aria-label="OceanCraft Boats Home">OceanCraft</a>
+    <nav class="desktop-nav" role="navigation" aria-label="Primary navigation">
+      <a href="#boats" tabindex="0">Boats</a>
+      <a href="#about" tabindex="0">About</a>
+      <a href="#services" tabindex="0">Services</a>
+      <a href="#contact" tabindex="0">Contact</a>
+    </nav>
+    <button 
+      class="hamburger" 
+      aria-label="Menu" 
+      aria-expanded="false" 
+      aria-controls="mobile-navigation"
+      id="hamburgerBtn"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" id="mobile-navigation" role="navigation" aria-label="Mobile navigation">
+    <a href="#boats" tabindex="-1">Boats</a>
+    <a href="#about" tabindex="-1">About</a>
+    <a href="#services" tabindex="-1">Services</a>
+    <a href="#contact" tabindex="-1">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" role="region" aria-label="Introduction">
+    <h1>Explore the Ocean like Never Before</h1>
+    <p>Discover premium boats crafted for adventure, luxury, and excellence on the water.</p>
+    <button class="btn-primary" tabindex="0" type="button" onclick="document.getElementById('boats').scrollIntoView({behavior:'smooth'})">Browse Boats</button>
+  </section>
+
+  <section id="boats" class="container" role="region" aria-label="Featured Boats" tabindex="-1">
+    <h2 class="section-title">Featured Boats</h2>
+    <div class="boat-grid">
+      <article class="boat-card" tabindex="0" aria-labelledby="boat1-name boat1-desc">
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/e14343d0-452d-4353-8c0c-a7346e1c90b2.png" alt="Luxury yacht cruising in blue ocean under sunny sky" class="boat-image" />
+        <div class="boat-content">
+          <h3 id="boat1-name" class="boat-name">OceanCraft Elite 500</h3>
+          <p id="boat1-desc" class="boat-desc">A top-tier luxury yacht blending comfort and power with sleek design, perfect for extended ocean voyages.</p>
+          <div class="boat-price">$1,200,000</div>
+          <button class="btn-secondary" type="button" aria-label="Learn more about OceanCraft Elite 500">Learn More</button>
+        </div>
+      </article>
+      <article class="boat-card" tabindex="0" aria-labelledby="boat2-name boat2-desc">
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4cb661fe-49d6-49e9-b0fa-bf923d42033f.png" alt="Red and white speed boat at full throttle on calm water" class="boat-image" />
+        <div class="boat-content">
+          <h3 id="boat2-name" class="boat-name">OceanCraft Sprint 300</h3>
+          <p id="boat2-desc" class="boat-desc">High-performance speed boat designed for thrill-seekers aiming to dominate the waves.</p>
+          <div class="boat-price">$350,000</div>
+          <button class="btn-secondary" type="button" aria-label="Learn more about OceanCraft Sprint 300">Learn More</button>
+        </div>
+      </article>
+      <article class="boat-card" tabindex="0" aria-labelledby="boat3-name boat3-desc">
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/f4be63cb-4fe6-4e82-a245-b6bcc7d671f6.png" alt="Modern fishing boat equipped with gear on open water" class="boat-image" />
+        <div class="boat-content">
+          <h3 id="boat3-name" class="boat-name">OceanCraft Fisher 250</h3>
+          <p id="boat3-desc" class="boat-desc">Reliable fishing boat with advanced equipment, built for anglers seeking the perfect catch.</p>
+          <div class="boat-price">$78,000</div>
+          <button class="btn-secondary" type="button" aria-label="Learn more about OceanCraft Fisher 250">Learn More</button>
+        </div>
+      </article>
+      <article class="boat-card" tabindex="0" aria-labelledby="boat4-name boat4-desc">
+        <img src="https://i.pinimg.com/736x/7c/20/f1/7c20f1ef9553706b289d4a0f018f3b7a.jpg" alt="OceanCraft Adventurer 410 on the water" class="boat-image" />
+        <div class="boat-content">
+          <h3 id="boat4-name" class="boat-name">OceanCraft Adventurer 410</h3>
+          <p id="boat4-desc" class="boat-desc">Perfect for coastal exploration and family trips.</p>
+          <div class="boat-price">$400,000</div>
+          <button class="btn-secondary" type="button" aria-label="Learn more about OceanCraft Adventurer 410">Learn More</button>
+        </div>
+      </article>
+      <article class="boat-card" tabindex="0" aria-labelledby="boat5-name boat5-desc">
+        <img src="https://i.pinimg.com/736x/13/3d/52/133d52ea59c6a721b373e1a96f57ec70.jpg" alt="OceanCraft Seafarer 360 on the water" class="boat-image" />
+        <div class="boat-content">
+          <h3 id="boat5-name" class="boat-name">OceanCraft Seafarer 360</h3>
+          <p id="boat5-desc" class="boat-desc">Compact and efficient boat for day trips and fishing.</p>
+          <div class="boat-price">$280,000</div>
+          <button class="btn-secondary" type="button" aria-label="Learn more about OceanCraft Seafarer 360">Learn More</button>
+        </div>
+      </article>
+      <article class="boat-card" tabindex="0" aria-labelledby="boat6-name boat6-desc">
+        <img src="https://i.pinimg.com/736x/9f/20/5b/9f205b255f2f01ab1f6e5a24ab7eb6bb.jpg" alt="OceanCraft Navigator 470 on the water" class="boat-image" />
+        <div class="boat-content">
+          <h3 id="boat6-name" class="boat-name">OceanCraft Navigator 470</h3>
+          <p id="boat6-desc" class="boat-desc">High-tech navigation and comfort for serious sailors.</p>
+          <div class="boat-price">$530,000</div>
+          <button class="btn-secondary" type="button" aria-label="Learn more about OceanCraft Navigator 470">Learn More</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="about" class="about-section container" role="region" aria-label="About OceanCraft">
+    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/1abed83d-c41e-4da2-890d-8539212cc8fd.png" alt="Modern OceanCraft boat factory exterior with clear skies" class="about-image" />
+    <div class="about-content">
+      <h2>About OceanCraft</h2>
+      <p>Founded in 1995, OceanCraft has become a leader in designing and building premium boats that combine elegance, performance, and innovation. Our commitment to quality craftsmanship and cutting-edge technology ensures every OceanCraft vessel delivers unmatched ocean experiences.</p>
+      <p>With a global presence and a passion for adventure, OceanCraft is your trusted partner for exploring and enjoying the waters with style and confidence.</p>
+    </div>
+  </section>
+
+  <section id="services" class="container services" role="region" aria-label="Our Services" tabindex="-1">
+    <h2 class="section-title">Our Services</h2>
+    <div class="services-list">
+      <div class="service-card" tabindex="0">
+        <svg class="service-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20 14v-2l-2-2-3 3-5-5L5 9l2 2H4v6h16v-3zM2 9h2v8H2V9zm2-8h6v2H4V1z"/>
+        </svg>
+        <div class="service-content">
+          <h3 class="service-title">Custom Boat Design</h3>
+          <p class="service-desc">Collaborate with our expert designers to build a boat tailored exactly to your style and needs.</p>
+        </div>
+      </div>
+      <div class="service-card" tabindex="0">
+        <svg class="service-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M22 15v4h-2v-3H8v3H6v-4H2v-2l4-1V8l6 3 6-3v4l4 1v2z"/>
+        </svg>
+        <div class="service-content">
+          <h3 class="service-title">Maintenance & Repair</h3>
+          <p class="service-desc">Keep your boat in peak condition with our comprehensive maintenance and repair offerings.</p>
+        </div>
+      </div>
+      <div class="service-card" tabindex="0">
+        <svg class="service-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M16 16h2v6H6v-6h2v-4h8v4zm3-13v8H5V3h14z"/>
+        </svg>
+        <div class="service-content">
+          <h3 class="service-title">Financing & Insurance</h3>
+          <p class="service-desc">We provide flexible financing options and insurance plans to secure your investment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section" role="region" aria-label="Contact OceanCraft">
+    <h2>Contact Us</h2>
+    <form class="contact-form" aria-describedby="contact-desc" novalidate>
+      <label for="name">
+        Name
+        <input type="text" id="name" name="name" placeholder="Your full name" required aria-required="true" />
+      </label>
+      <label for="email">
+        Email
+        <input type="email" id="email" name="email" placeholder="your.email@example.com" required aria-required="true" />
+      </label>
+      <label for="message">
+        Message
+        <textarea id="message" name="message" rows="5" placeholder="Your message or question" required aria-required="true"></textarea>
+      </label>
+      <button class="btn-primary-submit" type="submit" aria-label="Submit contact form">Send Message</button>
+    </form>
+  </section>
+</main>
+
+<footer role="contentinfo">
+  <div class="footer-container container">
+    <div class="footer-section" aria-label="Company information">
+      <h3>OceanCraft</h3>
+      <p>Premium boats crafted for your ocean adventures. Quality, innovation, and style.</p>
+    </div>
+    <nav class="footer-section" aria-label="Footer navigation">
+      <h3>Navigate</h3>
+      <a href="#boats">Boats</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="footer-section" aria-label="Contact information">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:aa3981863@gmail.com">aa3981863@gmail.com</a></p>
+      <p>Phone: <a href="tel:+18001234567">+1 (800) 123-4567</a></p>
+      <p>Address: Faizabad Ayodhya Uttar Pradesh,India</p>
+    </div>
+    <div class="footer-section" aria-label="Social media links">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/share/1E7ha441UM/" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" ><path d="M22 12a10 10 0 10-11.53 9.87v-6.98h-2.65V12h2.65V9.75c0-2.62 1.57-4.07 3.95-4.07 1.14 0 2.34.2 2.34.2v2.57h-1.32c-1.3 0-1.7.81-1.7 1.64V12h2.9l-.46 2.89h-2.44v6.98A10.01 10.01 0 0022 12z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/mohd-azam-916256269" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.7-1.3 2.4-2.7 4.9-2.7 5.2 0 6.2 3.4 6.2 7.8V24h-5v-7.5c0-1.8 0-4.1-2.5-4.1-2.5 0-2.9 2-2.9 4v7.6h-5V8z"/></svg>
+        <a href="https://www.instagram.com/me_azam786?igsh=NjBmNTYzYWR5aDZl" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path d="M7.75 2C5.68 2 4 3.68 4 5.75v12.5C4 20.32 5.68 22 7.75 22h8.5c2.07 0 3.75-1.68 3.75-3.75V5.75C20 3.68 18.32 2 16.25 2h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm6.5-.02a1.15 1.15 0 110 2.3 1.15 1.15 0 010-2.3zM12 9.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom" tabindex="0">&copy; 2025 OceanCraft Boats. All rights reserved.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
